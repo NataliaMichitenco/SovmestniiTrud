@@ -67,7 +67,7 @@ img {
   background-color: #F8F8F8;
   color: #000000;
   padding: 24px;
-  border-color: #FFFFFF;
+  border: none;
 }
 
 .header-team {
