@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sovmestnii trud</title>
+</head>
+<body>
+<header>
+    <div class="header">
+        <img src="./img/logo.png" alt="logo">
+        <img src="./img/Совместный труд.png" alt="text">
+    </div>
+</header>
+<main class="center">
+    <div class="form ">
+        <h3 class="form__title">Регистрация</h3>
+        <form class="form__information" action="#">
+        <h4 class="form__information_text">Имя:</h4>
+                <input class="input__name" type="text" placeholder="Иван" autofocus required>
+        <h4 class="form__information_text">Электронная почта:</h4>
+                <input class="input__email" type="email" placeholder="apart27@mail.ru" required>
+        <h4 class="form__information_text">Пароль:</h4>
+                <input class="input__pass" type="password" placeholder="••••••••" required minlength="8">
+        <h4 class="form__information_text">Подтвердите пароль:</h4>
+                <input class="input__pass" type="password" placeholder="••••••••" required minlength="8">
+    </form>
+    <p id="message"></p>
+    <a href="" class="form__btn">Зарегистрироваться</a>
+</div>
+</main>
+<script src="authorization.js"></script>
+</body>
+</html>
